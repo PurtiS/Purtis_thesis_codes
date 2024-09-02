@@ -17,7 +17,7 @@
 ## Analysis Files:
 
 5. **`N.Longitudinal_CATE_estimates` and `N.Not_Longitudinal_CATE_estimates`**
-   - **Purpose:** Contains the codes for estimating Conditional Average Treatment Effects (CATE) for the years 2013-2020, based on both longitudinal and non-longitudinal data.
+   - **Purpose:** Contains the codes for estimating Conditional Average Treatment Effects (CATE) for the years 2013-2020, based on both longitudinal and non-longitudinal data. For testing statistical significance, plotting the results along with calculation and plotting confidence intervals
    - **Results:** The results from these files are presented in the Analysis section of the thesis.
    - **Dependencies:** Uses the output files from the data management files.
 
@@ -29,6 +29,11 @@
 7. **`N.Subgroup_Interactions_andmore`**
    - **Purpose:** Contains the codes for generating tables, graphs, and results based on interactions among different subgroups.
    - **Results:** The results are presented in the Analysis section and the appendix.
+   - **Dependencies:** Uses the output files from the data management files.
+  
+8. **`N.MW_Analysis`**
+   - **Purpose:** Contains the codes for generating CATE estimates(men) and CATE Estimates(women), testing statistical significance and plotting the results.
+   - **Results:** The results are presented in the Analysis section of the thesis.
    - **Dependencies:** Uses the output files from the data management files.
 
 ## Simulation Study Files:
